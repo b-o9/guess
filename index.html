@@ -7,13 +7,15 @@
 <div class="onlyBox">
     <h1>Guess a Number</h1>
     <p>Number between 1 and 100</p>
-    <p id="guess">Click to start</p>
+    <p id="guess">Is it 50?</p>
         
-    <button onclick="backendGuess()">Too low!</button>
-    <button onclick="backendGuess(true)">Correct!</button>
-    <button onclick="backendGuess()">Too high!</button>
+    <button id="lowBtn">Too low!</button>
+    <button id="correctBtn">Correct!</button>
+    <button id="highBtn">Too high!</button>
     
-    <p id="sidsteGuess">Guesses:</p>
+    <p id="guessList"></p>
+    <p id="guesses">Guesses: 0</p>
+
 </div>
 
 <script src="script.js"></script>
